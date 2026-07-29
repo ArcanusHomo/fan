@@ -1,0 +1,55 @@
+/* Google Fonts - loaded at runtime via CSS */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap");
+
+@import "tailwindcss";
+
+@theme inline {
+  --color-forest: #1e2e1e;
+  --color-forest-light: #2a4a2a;
+  --color-moss: #3a5a3a;
+  --color-moss-light: #4a6b40;
+  --color-wood: #8b6b4a;
+  --color-wood-light: #a08060;
+  --color-sand: #c4a88b;
+  --color-sand-light: #d4bfa4;
+  --color-cream: #f7f3eb;
+  --color-cream-dark: #e8e0d0;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f7f3eb;
+  color: #1e2e1e;
+  font-family: "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: #3a5a3a;
+  color: #f7f3eb;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f7f3eb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8b6b4a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3a5a3a;
+}
