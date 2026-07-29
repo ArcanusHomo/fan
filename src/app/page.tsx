@@ -104,16 +104,6 @@ export default function HomePage() {
         </div>
       </motion.div>
 
-      {/* Scroll hint */}
-      <motion.div
-        className="absolute bottom-6 left-1/2 -translate-x-1/2"
-        animate={{ y: [0, 6, 0] }}
-        transition={{ duration: 2.5, repeat: Infinity }}
-      >
-        <span className="text-cream/30 text-xs tracking-[0.2em]">
-          向下探索
-        </span>
-      </motion.div>
     </div>
   );
 }
